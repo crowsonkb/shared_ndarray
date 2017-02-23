@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='shared-ndarray',
-    version='1.1',
+    version='1.1.1',
     description='A pickleable wrapper for sharing NumPy ndarrays between processes using POSIX shared memory.',
     long_description=open('README.rst').read(),
     url='https://github.com/crowsonkb/shared_ndarray',
@@ -20,5 +20,5 @@ setuptools.setup(
     ],
     keywords='numpy ndarray array shared memory shm',
     packages=['shared_ndarray'],
-    install_requires=['numpy >= 1.12.0', 'posix_ipc >= 1.0.0'],
+    install_requires=['numpy >= 1.11.3', 'posix_ipc >= 1.0.0'],
 )

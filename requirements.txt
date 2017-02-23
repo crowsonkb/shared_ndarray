@@ -1,2 +1,2 @@
-numpy >= 1.12.0
+numpy >= 1.11.3
 posix_ipc >= 1.0.0
